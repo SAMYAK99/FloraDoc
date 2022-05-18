@@ -1,9 +1,9 @@
 Flora Doc
 
 
-#FRONTEND : 
+# FRONTEND : 
 
-#BACKEND : https://github.com/shadmaan9216/backend_farmer
+# BACKEND : https://github.com/shadmaan9216/backend_farmer
 
  Agriculture, being one of the most predominating reasons, as we know it is the major sector of employment which accounts for 42 percent of the total employment and contributes about 19.9 percent to our country’s GDP. Crop Failure is the major reason for the suicides of the farmer. And Crop Failure due to plant disease is among the major cause. Lack of agricultural knowledge increases the probability of crop failure and the severity as well. For this, it is essential that they get proper assistance on time, but it has been found in the past that they are not able to get it due to a lack of communication media through which they could actually connect with the Botanist and get their issue resolved. So we have come up with this product which would solve this problem and provide necessary remedies for the concerned issues. 
 
