@@ -34,7 +34,7 @@ dependencies:
   curved_navigation_bar:
   image_picker: ^0.6.7+17
   tflite: ^1.1.2
-  flutter_inappwebview: ^4.0.0+4
+#  flutter_inappwebview: ^4.0.0+4
   url_launcher: ^6.0.4
   share: ^0.6.1+1
   flutter_tts: ^1.2.7

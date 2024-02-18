@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:share/share.dart';
 
@@ -17,7 +16,7 @@ class ArticleView extends StatefulWidget {
 }
 
 class _ArticleViewState extends State<ArticleView> {
-  InAppWebViewController webView;
+  // InAppWebViewController webView;
   String url = "";
 
   @override
@@ -60,27 +59,27 @@ class _ArticleViewState extends State<ArticleView> {
             child: Container(
               decoration:
                   BoxDecoration(border: Border.all(color: Colors.white)),
-              child: InAppWebView(
-                initialUrl: widget.postUrl,
-                initialOptions: InAppWebViewGroupOptions(
-                    crossPlatform: InAppWebViewOptions(
-                  debuggingEnabled: true,
-                )),
-                onWebViewCreated: (InAppWebViewController controller) {
-                  webView = controller;
-                },
-                onLoadStart: (InAppWebViewController controller, String url) {
-                  setState(() {
-                    this.url = url;
-                  });
-                },
-                onLoadStop:
-                    (InAppWebViewController controller, String url) async {
-                  setState(() {
-                    this.url = url;
-                  });
-                },
-              ),
+              // child: InAppWebView(
+              //   initialUrl: widget.postUrl,
+              //   initialOptions: InAppWebViewGroupOptions(
+              //       crossPlatform: InAppWebViewOptions(
+              //     debuggingEnabled: true,
+              //   )),
+              //   onWebViewCreated: (InAppWebViewController controller) {
+              //     webView = controller;
+              //   },
+              //   onLoadStart: (InAppWebViewController controller, String url) {
+              //     setState(() {
+              //       this.url = url;
+              //     });
+              //   },
+              //   onLoadStop:
+              //       (InAppWebViewController controller, String url) async {
+              //     setState(() {
+              //       this.url = url;
+              //     });
+              //   },
+              // ),
             ),
           ),
         ])),
